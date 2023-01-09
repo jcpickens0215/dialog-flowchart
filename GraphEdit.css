@@ -1,0 +1,15 @@
+body {
+    position: absolute;
+}
+/* Define the style for the vertices */
+.vertex, #vertex-head {
+    text-align: center;
+    color: #444;
+    position: fixed;
+    min-width: 100px;
+    min-height: 100px;
+    background-color: lightblue;
+    border: 1px solid blue;
+    cursor: move;
+    z-index: -1;
+}
